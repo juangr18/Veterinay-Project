@@ -5,8 +5,9 @@ const schema = new mongoose.Schema({
   race: String,
   weight: Number,
   height: Number,
-  Health: String,
+  health: String,
   age: Number,
+  dbStatus:Boolean,
   registerDate: {
     type: Date,
     default: Date.now,
