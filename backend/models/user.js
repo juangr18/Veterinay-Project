@@ -5,14 +5,13 @@ const schema = new mongoose.Schema({
   email: String,
   password: String,
   dbStatus: Boolean,
-  role: { type: mongoose.Schema.ObjectId, ref: "pet" },
-  dbStatus:Boolean,
+  pet: { type: mongoose.Schema.ObjectId, ref: "pet" },
   registerDate: {
     type: Date,
     default: Date.now,
   },
 });
 
-const user = mongoose.model.Schema("users", schema);
+const user = mongoose.model("users", schema);
 
 export default user;
