@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Veterinary project developed in MongoDB, Express and NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juangr18/Veterinay-Project.git"
+  },
+  "author": "@juangr18",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juangr18/Veterinay-Project/issues"
+  },
+  "homepage": "https://github.com/juangr18/Veterinay-Project#readme"
+}
