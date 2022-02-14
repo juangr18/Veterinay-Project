@@ -8,7 +8,7 @@ const registerUser = async (req, res) => {
     email: req.body.email,
     password: req.body.password,
     dbStatus: true,
-    role: req.body.role,
+    pet: req.body.pet,
   });
   let result = await schema.save();
   if (!result) return res.status(500).send({ menssage: "Failed to register" });
