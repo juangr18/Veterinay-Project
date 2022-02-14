@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Veterinary project developed in MongoDB, Express and NodeJS",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "start"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/juangr18/Veterinay-Project/issues"
   },
-  "homepage": "https://github.com/juangr18/Veterinay-Project#readme"
+  "homepage": "https://github.com/juangr18/Veterinay-Project#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
